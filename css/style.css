@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Lato:wght@400;700;900&family=Oswald:wght@400;700&family=Roboto:wght@400;500;700&family=Rubik+Marker+Hatch&family=Yanone+Kaffeesatz:wght@500&display=swap');
+
+[class*="__container"]{
+   max-width: 1000px;
+   font-family: "Oswald";
+   color: white;
+   text-shadow: 2px 2px 2px gray;
+   margin: 0 auto;
+   background-size: 100%;
+}
+
+body{
+   background: url(../img/milky-way-2695569__480.png) ;
+   background-color: black;
+   background-size: 100%;
+}
+
+.par1,
+.par2,
+.par3{
+   margin: 25px;
+   font-size: 40px;
+}
+
+.par1__container{
+   background-image: url(../img/1png.png);
+   background-color: aqua;
+   border-radius: 10px;
+   height: auto;
+   width: 100%;
+}
+
+.repeatx__container{
+   background: url(../img/2.png);
+   background-repeat: repeat-x;
+   max-width: 1500px;
+	min-height: 600px;
+}
+
+.repx,
+.repy{
+   font-size: 48px;
+   text-align: center;
+   padding-top: 250px;
+}
+
+.repeaty__container{
+   background: url(../img/4.png);
+   background-repeat: repeat-y;
+   max-width: 600px;
+	min-height: 1500px;
+   padding-right: 250px;
+}
+
+.gradient__container{
+   margin-top: 40px;
+   background: #ff0000;
+   background: linear-gradient(90deg,#ff0000 0%, #ff9a00 80%);
+   background: -webkit-linear-gradient(90deg,#ff0000 0%, #ff9a00 80%);
+   background: -moz-linear-gradient(90deg,#ff0000 0%, #ff9a00 80%);
+   height: 300px;
+   width: 300px;
+   text-align: center;
+   font-size: 36px;
+   padding-top: 110px;
+   border-radius: 20px;
+}
+
+.attachment__container{
+   background: url(../img/3.png) ;
+   background-attachment: fixed;
+   height: 700px;
+   width: 1000px;
+   color: black;
+   font-size: 48px;
+   margin-top: 40px;
+   padding: 10px;
+   text-align: center;
+   padding-top: 350px;
+}
